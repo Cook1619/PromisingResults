@@ -9,11 +9,11 @@ slowMath.add(6, 2)
     })
     .then((result) => {
         console.log(result);
-        return slowMath.subtract(3, result)
+        return slowMath.subtract(result, 3)
     })
     .then((result) => {
         console.log(result);
-        return slowMath.add(98, result)
+        return slowMath.add(result, 98)
     })
     .then((result) => {
         console.log(result);
@@ -25,11 +25,11 @@ slowMath.add(6, 2)
     })
     .then((result) => {
         console.log(result);
-        return slowMath.divide(result, 40)
+        return slowMath.remainder(result, 40)
     })
     .then((result) => {
         console.log(result);
-        return slowMath.add(32, result)
+        return slowMath.add(result, 32)
     })
     .then((result) => {
         console.log(result);
